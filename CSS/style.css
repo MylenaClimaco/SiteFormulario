@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(109, 109, 173, 0.479);
+    width: 600%;
+   
+}
+h1{
+    background-color: rgb(69, 69, 202);
+}
+footer{
+
+    background-color: rgba(0, 0, 0, 0.397);
+}

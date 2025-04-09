@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Atividade Pontuada</title>
+</head>
+
+<body>
+    <h1>Formulário de Teste</h1>
+    <fieldset>
+        <h3>Login</h3>
+        <form class="dados" id="dados">
+            <label for=""> Usúario:</label>
+            <input type="text" id="usuario" placeholder=" Digite nome do Usúario:"><br>
+            <label for=""> Senha:</label>
+            <input type="password" id="password" placeholder=" Digite senha:"><br>
+            <label for=""> Confirme senha:</label>
+            <input type="password" id="confirm-password" placeholder="Confirmar senha:"><br>
+            <button id="button">Buscar</button>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <h3>Dados pessoais</h3>
+        <form class="dadosPes" id="dadosPes">
+            <label for=""> Nome:</label>
+            <input type="text" id="nome" placeholder=" Digite nome completo:"><br>
+            <label for=""> Email:</label>
+            <input type="email" id="email" placeholder=" Digite seu email:"><br>
+            <label for=""> Tel:</label>
+            <input type="tel" id="tel" placeholder=" Digite númedo de telefone:"><br>
+            <button id="button2">Buscar</button>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <h3>Endereço</h3>
+        <form class="dadosCid" id="dadosCid">
+            <label for=""> Cep:</label>
+            <input type="text" id="cep" onblur="pesquisarcep()" placeholder=" Digite Cep:"><br>
+            <label for=""> Logradouro:</label>
+            <input type="text" id="log"  placeholder=" Digite Logradouro:"><br>
+            <label for=""> Bairro:</label>
+            <input type="text" id="bairro" placeholder=" Digite bairro:"><br>
+            <label for=""> Cidade:</label><br>
+            <input type="text" id="cidade" placeholder=" Digite cidade:"><br>
+            <label for=""> Estado:</label><br>
+            <input type="text" id="estado" placeholder=" Digite nome do estado:"><br>
+            <button onclick="pesquisarcep()">Buscar</button>
+        </form>
+    </fieldset>
+
+    <script src="js/scrip.js"></script>
+
+    <footer> <p>&copy Créditor da My </p></footer>
+</body>
+
+</html>
